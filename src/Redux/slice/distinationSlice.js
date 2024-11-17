@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit"
 
 const initalState =()=>{
     return{
-        distination:[{
+        destination:[{
          name: "Hong kong",
          days:7,
          fact:"World's longest covered escalator",
@@ -22,11 +22,11 @@ const initalState =()=>{
  
 }
 
-export const distinationSlice=createSlice({
-    name: "distination",
+export const destinationSlice=createSlice({
+    name: "destination",
     initialState:initalState,
     reducers:[]
     
 })
 
-export const distinationReducer=distinationSlice.reducer
+export const destinationReducer=destinationSlice.reducer

@@ -5,6 +5,7 @@ import { store } from "./Redux/store";
 import Counter from "./app/components/Counter";
 import Distination from "./app/components/Distination";
 import Header from "./app/layout/Header";
+import DestinationFact from "./app/components/DestinationFact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         </div>
         <Distination />
       </div>
+      <DestinationFact/>
     </Provider>
   </React.StrictMode>
 );

@@ -6,11 +6,8 @@ const Distination = () => {
   const destinationList = useSelector(
     (state) => state.destinationStore.destination
   );
-  const destinationClickedList = useSelector(
-    (state) => state.destinationStore.destinationSelected
-  );
+
   const dispatch = useDispatch();
-  
 
   return destinationList.map((destination, Index) => {
     return (

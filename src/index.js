@@ -13,12 +13,12 @@ root.render(
       <Header />
       <Counter />
       <div className="border text-center">
-      <div
-              className="mb-2"
-              style={{ color: "green", fontSize: "20px", fontWeight: "bold" }}
-            >
-              Distination List
-            </div>
+        <div
+          className="mb-2"
+          style={{ color: "green", fontSize: "20px", fontWeight: "bold" }}
+        >
+          Distination List
+        </div>
         <Distination />
       </div>
     </Provider>

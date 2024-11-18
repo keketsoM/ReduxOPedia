@@ -1,9 +1,9 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { resetDestination } from "../../Redux/slice/distinationSlice";
+import { resetReduxOPedia } from "../../Redux/action/actions";
 const ResetApp = () => {
   const resetDestinationAndCount = () => {
-    dispatch(resetDestination());
+    dispatch(resetReduxOPedia())
   };
 
   const dispatch = useDispatch();
